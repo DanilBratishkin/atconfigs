@@ -8,7 +8,7 @@ sudo apt-get install patchelf
 
 ///Закрой терминал и заного открой
 #### Скрипт
-_Пиши следющие_
+__Пиши следющие__
 
 sudo apt-get install cmake g++ gdb git libsdl2-dev zlib1g-dev liblua5.3 libxdo-dev patchelf
 
