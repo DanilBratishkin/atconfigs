@@ -10,6 +10,7 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /u
 
 sudo apt-get install patchelf
 
+
 ///Закрой терминал и заного открой
 #### Скрипт
 __Пиши следющие__
