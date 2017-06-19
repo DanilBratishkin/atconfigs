@@ -1,45 +1,43 @@
 Команды по очереди:
 
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+1. sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 
-sudo apt-get update
+2. sudo apt-get update
 
-sudo apt-get install gcc-6 g++-6
+3. sudo apt-get install gcc-6 g++-6
 
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-6
+4. sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-6
 
-sudo apt-get install patchelf
+5. sudo apt-get install patchelf
 
 
 ///Закрой терминал и заного открой
 #### Скрипт
 __Пиши следющие__
 
-sudo apt-get install cmake g++ gdb git libsdl2-dev zlib1g-dev liblua5.3 libxdo-dev patchelf
+1. sudo apt-get install cmake g++ gdb git libsdl2-dev zlib1g-dev liblua5.3 libxdo-dev patchelf
 
-git clone --recursive https://github.com/LWSS/Fuzion
+2. git clone --recursive https://github.com/LWSS/Fuzion
 
+3. cd Fuzion
 
-cd Fuzion
-
-./build
+4. ./build
 
 Прописывай каждый день:
 
 ./update 
 
-
 ## Инжект
 
-cd Fuzion
+1. cd Fuzion
 
-./load
+2. ./load
 
 ## Unloading the hack
 
-cd Fuzion
+1. cd Fuzion
 
-./uload
+2. ./uload
 
 ## Конфиги
 
@@ -51,5 +49,4 @@ cd Fuzion
 
 
 ~/.config/FuzionGH
-
 
